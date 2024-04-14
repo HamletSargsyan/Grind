@@ -166,8 +166,8 @@ $ В секунду : + 100,000$
 
 
 # отрисовка демок
-# print(text[-3])
-# for i in text: print(i)
+print(text[-3])
+for i in text: print(i)
 def pn(number, recolor=0, mode=1):
     if not mode:
         number = int(number)

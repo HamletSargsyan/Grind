@@ -6,6 +6,10 @@ prompt_session = PromptSession("Действие  : ")
 
 _prompt_session: Final = prompt_session
 
+SAVE_FILE_PATH: Final = "./save.json"
+
+dev_mode = False
+page = ""
 
 def init_session():
     global prompt_session

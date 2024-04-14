@@ -4,6 +4,7 @@ from typing import Callable, Union
 
 COMMANDS = {}
 
+
 def command(name: Union[str, None] = None):
     def decorator(func: Callable):
         _name = (name or func.__name__).replace(" ", "-").replace("_", "-")
@@ -11,11 +12,11 @@ def command(name: Union[str, None] = None):
             COMMANDS[_name] = func
 
         return func
+
     return decorator
 
 
-def save():
-    ...
+def save(): ...
 
-def load():
-    ...
+
+def load(): ...

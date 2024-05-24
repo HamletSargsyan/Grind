@@ -22,6 +22,7 @@ def help(cmd: str = "help"):
 @command("exit", alt_names=["e"])
 def exit_cmd():
     os.system("clear")
+    save()
     sys.exit(1)
 
 
@@ -30,7 +31,7 @@ def save_cmd():
     save()
 
 
-@command(alt_names=["sa"])
+@command()
 def sell(r: Union[str, int]):
     ...
 

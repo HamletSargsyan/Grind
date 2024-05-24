@@ -1,0 +1,174 @@
+[player]
+player_name = "Catalyst"
+money = 0
+level = 1
+timestamp = 0
+
+[res.time]
+seconds = 0
+minutes = 0
+hours = 0
+wait_seconds = 0
+wait_minutes = 0
+wait_hours = 0
+
+[res.stone]
+name = "Камень"
+count = 0
+price = 1
+price_start = 1
+up_cost = 10
+storage = 100
+per_s = 0.5
+level = 1
+
+[res.wood]
+name = "Дерево"
+count = 0
+price = 5
+price_start = 5
+up_cost = 100
+storage = 100
+per_s = 0.5
+level = 1
+
+[res.coal]
+name = "Уголь"
+count = 0
+price = 50
+price_start = 50
+up_cost = 500
+storage = 100
+per_s = 0.5
+level = 1
+
+[res.fabric]
+name = "Ткань"
+count = 0
+price = 100
+price_start = 100
+up_cost = 1000
+storage = 100
+per_s = 0.5
+level = 1
+
+[res.copper]
+name = "Медь"
+count = 0
+price = 200
+price_start = 200
+up_cost = 2000
+storage = 100
+per_s = 0.5
+level = 1
+
+[res.steel]
+name = "Железо"
+count = 0
+price = 500
+price_start = 500
+up_cost = 4000
+storage = 100
+per_s = 0.5
+level = 1
+
+[res.gold]
+name = "Золото"
+count = 0
+price = 1000
+price_start = 1000
+up_cost = 10000
+storage = 100
+per_s = 0.5
+level = 1
+
+[res.uranium]
+name = "Уран"
+count = 0
+price = 2000
+price_start = 2000
+up_cost = 50000
+storage = 100
+per_s = 0.5
+level = 1
+
+[res.klit]
+name = "Кремнелит"
+count = 0
+price = 5000
+price_start = 5000
+up_cost = 100000
+storage = 100
+per_s = 0.5
+level = 1
+
+[res.chromium]
+name = "Хром"
+count = 0
+price = 10000
+price_start = 10000
+up_cost = 500000
+storage = 100
+per_s = 0.5
+level = 1
+
+[colors]
+[[colors]]
+name = "Белый"
+up_cost = 10000
+per_s = 100000
+level = 0
+
+[[colors]]
+name = "Серый"
+up_cost = 10000
+per_s = 200000
+level = 0
+
+[[colors]]
+name = "Красный"
+up_cost = 10000
+per_s = 300000
+level = 0
+
+[[colors]]
+name = "Желтый"
+up_cost = 10000
+per_s = 400000
+level = 0
+
+[[colors]]
+name = "Зеленый"
+up_cost = 10000
+per_s = 500000
+level = 0
+
+[[colors]]
+name = "Бирюзовый"
+up_cost = 10000
+per_s = 600000
+level = 0
+
+[[colors]]
+name = "Синий"
+up_cost = 10000
+per_s = 700000
+level = 0
+
+[[colors]]
+name = "Фиолетовый"
+up_cost = 10000
+per_s = 800000
+level = 0
+
+[[colors]]
+name = "Черный"
+up_cost = 10000
+per_s = 900000
+level = 0
+
+[[colors]]
+name = "Блестки"
+up_cost = 10000
+per_s = 1000000
+level = 0
